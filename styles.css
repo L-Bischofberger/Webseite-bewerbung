@@ -1,7 +1,5 @@
 html{
     background-color: #f6f6f6f6;
-    font-family: 'Barlow', sans-serif;
-    font-family: 'DM Sans', sans-serif;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -60,9 +58,6 @@ p,p a{
     font-size: 5vw;
 }
 
-.popup p{
-    font-size: 1.75;
-}
 
 .hobby {
     display: flex;
@@ -273,7 +268,8 @@ p,p a{
     text-align: center;
 }
 .schrift{
-    font-size: 50px;
+    font-size: 2cqw;
+    text-transform: uppercase;
     display: inline-block;
     margin: 0; }
 .text_bild{
@@ -283,8 +279,12 @@ p,p a{
 
 }
 
+
 @media screen and (min-width: 500px) {
 
+    #über_mich .abstand{
+        display: flex;
+    }
     div.fehler{
       display: none;
       text-align: center;
@@ -294,7 +294,6 @@ p,p a{
         margin-right: 4vw;
       }
   }
-
   @media screen and (max-width: 500px) {
     .schrift_feler{
         display: flex;
@@ -311,12 +310,10 @@ p,p a{
     }
     nav a {
         font-size: 10.75vw;
-
     }
     #home-button {
         font-size: 5vw;
     }
-
     #additional-info {
         font-size: 0.5rem;
         margin-top: 10px; 
@@ -327,20 +324,93 @@ p,p a{
     }
     .popup {
         height: 70%; 
-
     } 
-    .abnstand{
-        margin: 0 5% 0 5%;
-        flex-direction: column;
-        margin-top: 375px;
-        }
      .das_bin_ich{
         font-size: 4cqw;
      }
-
-     .info_über_mich{
-        flex-direction: column;
-        margin-right: 0vw;
+     .abstand{
+        display: block;
      }
+     .info_über_mich{
+        display: block;
+     }
+     .ausbil_teil1{
+        flex-direction: column;
+     }
+     ._{
+        margin-bottom: 1rem;
+     }
+     .über_web_teil1 {
+        display: block;
+    }
+    .andere_web {
+        display: block;
+    }
+    .ausbil_text {
+        display: block;
+    }
+    .link {
+        margin-top: 15px;
+    }
+
+    .balken{
+      height: 2px;  
+    }
+    .schrift{
+        font-size: 4cqw;
+    }
+    .image-title {
+        font-size: 4cqw;
+    }
+    .über_web_text {
+        display: block;
+    }
+    .image-container {
+        display: block;
+    }
+    .bild {
+        width: 100%;
+    }
+    .zwischenstrich_div{
+        display: block;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .zwischenstrich_ent1{
+        width: 100%;
+        height: 4px;
+
+    }
+    .zwischenstrich_ent2{
+        width: 100%;
+        height: 4px;
+
+    }
+    .zwischenstrich_div_hor{
+        display: block;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .zwischenstrich_ent2_hor{
+        width: 100%;
+        height: 4px;
+
+    }
+    #zwischenstrich_div_hor1{
+        display: none;
+
+    }
+    #mein_wohnort{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    nav ul li {
+        margin-bottom: 15%;
+    }
+    
     
 }
